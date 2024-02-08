@@ -29,7 +29,7 @@ int main() {
 
         if (charInput == 'F') {
 
-            cout << endl << "What interger would you like to check for:" << endl;
+            cout << endl << "What integer would you like to check for:" << endl;
             cin >> intInput;
             cin.clear();
             cin.ignore(100, '\n');
@@ -63,7 +63,7 @@ int main() {
         }
 
         else if (charInput == 'A') {
-            cout << endl << "What interger would you like to add to the array:" << endl;
+            cout << endl << "What integer would you like to add to the array:" << endl;
             cin >> intInput;
             cin.clear();
             cin.ignore(100, '\n');
@@ -73,7 +73,7 @@ int main() {
 
         else if (charInput == 'R') {
 
-            cout << endl << "What is the index of the interger you would like to remove:" << endl;
+            cout << endl << "What is the index of the integer you would like to remove:" << endl;
             cin >> intInput;
             cin.clear();
             cin.ignore(100, '\n');
